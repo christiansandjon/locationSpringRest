@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<pre style="text-align: center; margin: 50px;">
+<h2>Locations:</h2>
+<table style="text-align: center; margin: 50px;">
+    <tr>
+        <th>id</th>
+        <th>code</th>
+        <th>name</th>
+        <th>type</th>
+    </tr>
+    <tr th:each="location:${locations}">
+        <td th:text="${location.id}"></td>
+        <td th:text="${location.code}"></td>
+        <td th:text="${location.name}"></td>
+        <td th:text="${location.type}"></td>
+        <td><a th:href="@{'updateLocation?id='+${location.id}}">edit</a></td>
+        <td><a th:href="@{'deleteLocation?id='+${location.id}}">delete</a></td>
+    </tr>
+</table>
+<td>
+    <a href="createLocation">Add location</a></td>
+    </pre>
+</body>
+</html>
