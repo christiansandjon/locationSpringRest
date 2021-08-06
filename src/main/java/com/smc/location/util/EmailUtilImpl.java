@@ -1,4 +1,4 @@
-package com.smc.location.utility;
+package com.smc.location.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSenderImpl;

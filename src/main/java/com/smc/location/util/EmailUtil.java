@@ -1,4 +1,4 @@
-package com.smc.location.utility;
+package com.smc.location.util;
 
 public interface EmailUtil {
 

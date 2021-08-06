@@ -26,8 +26,9 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public void updateLocation(Location location) {
+    public Optional<Location> updateLocation(Location location) {
         locationEntity.save(location);
+        return Optional.of(location);
     }
 
     @Override

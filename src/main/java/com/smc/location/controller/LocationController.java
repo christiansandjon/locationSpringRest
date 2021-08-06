@@ -2,7 +2,7 @@ package com.smc.location.controller;
 
 import com.smc.location.model.Location;
 import com.smc.location.service.interfaces.LocationService;
-import com.smc.location.utility.EmailUtil;
+import com.smc.location.util.EmailUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

@@ -8,6 +8,9 @@ import java.util.List;
 
 public interface LocationEntity extends CrudRepository<Location, Long> {
 
+    /*
     @Query("select type, count(type) from location group by type")
     public List<Object[]> findTypeAndTypeCount();
+
+     */
 }

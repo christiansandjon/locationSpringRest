@@ -1,4 +1,4 @@
-package com.smc.location.utility;
+package com.smc.location.util;
 /*
 import org.jfree.chart.ChartFactory;
 import org.jfree.data.general.DefaultPieDataset;
